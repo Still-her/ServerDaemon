@@ -1,0 +1,13 @@
+daemonrun:
+
+  - binrun: /mnt/hgfs/mypro/vlra_64bit_rel_pg/package/bin/vserver
+    netdev: ens33   #探测频率，单位毫秒
+    bindvip: 192.168.92.155/24     #报文最大失效的个数
+    retimes: 2
+    envs:
+      - env: udcfwefnH
+      - env: 12344
+    
+#  - binrun: /opt/wacos/bin/ha222 -h /opt/wacos/conf/ha.yam2322
+#    netdev: ens33   #探测频率，单位毫秒
+#    bindvip: 192.168.92.129/24     #报文最大失效的个数
